@@ -14,8 +14,8 @@ consumo_h = raw_input (" inserisci il consumo orario in galloni")
 carburante = raw_input ("inserisci il carburante a disposizione")
 
 #casting in float e salvo nelle variabili di lavoro  
-carburante  =  float (consumo_h)
-consumo =  float (carburante)
+consumo_h  =  float (consumo_h)
+carburante =  float (carburante)
  
 if carburante < 0:
     print "La quantita' di carburante non puo' essere negativa!"
@@ -38,4 +38,4 @@ else:
         t = t*60 
         secondi = int(t)# secondi interi
 
-print "Durata volo:", ore, "h", minuti, "min", secondi, "sec"
+        print "Durata volo:", ore, "h", minuti, "min", secondi, "sec"
